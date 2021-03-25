@@ -11,4 +11,5 @@ public class bai2_b extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bai2_b);
     }
+
 }
