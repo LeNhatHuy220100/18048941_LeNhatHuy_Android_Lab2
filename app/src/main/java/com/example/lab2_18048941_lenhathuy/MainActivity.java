@@ -12,15 +12,15 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button generate ;
+    /*Button generate ;
     EditText password, passLen;
-    CheckBox ckLower, ckUpper, ckNum, ckSymbol;
+    CheckBox ckLower, ckUpper, ckNum, ckSymbol;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bai2_d);
+        setContentView(R.layout.activity_bai2_c);
 
-        generate = (Button) findViewById(R.id.buttonGenerate);
+        /*generate = (Button) findViewById(R.id.buttonGenerate);
         password = (EditText) findViewById(R.id.password);
         passLen = (EditText) findViewById(R.id.passLen);
         ckLower = (CheckBox) findViewById(R.id.lowerCase);
@@ -89,9 +89,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-
-
-
-        return result.toString();
+        return result.toString();*/
     }
 }
